@@ -52,6 +52,7 @@ export default function LoadMoreData() {
               <div key={item.id} className="product">
                 <img src={item.thumbnail} alt={item.title} />
                 <p>{item.title}</p>
+                <p>${item.price}</p>
               </div>
             ))
           : null}
